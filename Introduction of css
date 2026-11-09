@@ -1,0 +1,20 @@
+There are 3 types of CSS
+1.Inline CSS
+2.Internal CSS
+3.External CSS
+Lets discuss the differnce and usecase of each of them : 
+Inline CSS:-Inline CSS is use to give styling to the tag at the time of their initialization it is easy but dirty way
+to apply styling on our html file.
+Example:- <h1 style="background-color:black;">Hello</h1>
+Problem:-Lets assume we have created 100+ h1 tags and it will be complex but somehow we applied black background color to each of them but 
+someone come to us and may be for some reason now we have to change it bg color black to white so now we have to go manually to each of 100+ 
+tags and have to change it color black to white.
+Solution:-Solution is Internal CSS
+Internal CSS:- we just have to use selector and apply property on it it work on a bulk 
+Example:- h1{
+           background-color:black;
+           }
+Internal CSS is doing everything fine so why do we got need of External CSS
+Problem:- Suppose styling going on and on and it will be complex to manage css and html on a same page or a slide/Interface So we have option to seperate each of them.
+Example & Solution:- Create style.css and apply all styling .
+Link:-<link rel="stylesheet" href="style.css">
