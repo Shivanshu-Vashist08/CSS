@@ -1,0 +1,8 @@
+types of selector
+1.using class(.)
+2.using id(hashtag)
+3.by selecting tag(using name of tag)
+4.universal selector
+5.parent tag > child tag
+6.parent tag tag name->it will apply styling on all the child subchild of parent tag.
+7.pseudo selector:-tag:
